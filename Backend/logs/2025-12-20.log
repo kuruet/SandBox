@@ -1,0 +1,91 @@
+[12:00:30] [32minfo[39m: ✅ MongoDB connected successfully
+[12:00:31] [32minfo[39m: Server running on port 5000
+[12:03:08] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:33:08.043Z
+[12:03:08] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:33:08.068Z
+[12:03:39] [32minfo[39m: [Request] POST /api/vendor/login - 2025-12-20T06:33:39.699Z
+[12:03:40] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:33:40.153Z
+[12:03:40] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:33:40.170Z
+[12:04:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:34:47.168Z
+[12:04:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:34:47.419Z
+[12:04:58] [32minfo[39m: [Request] GET /api/vendor/qr/download - 2025-12-20T06:34:58.072Z
+[12:04:58] [32minfo[39m: [Request] GET /favicon.ico - 2025-12-20T06:34:58.456Z
+[12:05:18] [32minfo[39m: [Request] PATCH /api/vendor/files/694445d0674b7fd2f7736a84/printed - 2025-12-20T06:35:18.557Z
+[12:05:22] [32minfo[39m: [Request] POST /api/vendor/login - 2025-12-20T06:35:22.472Z
+[12:05:22] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:35:22.743Z
+[12:05:23] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:35:23.069Z
+[12:06:00] [32minfo[39m: [Request] PATCH /api/vendor/files/694445cc674b7fd2f7736a81/printed - 2025-12-20T06:36:00.714Z
+[12:06:03] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:03.531Z
+[12:06:03] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:03.886Z
+[12:06:07] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:07.343Z
+[12:06:07] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:07.773Z
+[12:06:11] [32minfo[39m: [Request] POST /api/vendor/login - 2025-12-20T06:36:11.759Z
+[12:06:12] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:12.198Z
+[12:06:12] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T06:36:12.207Z
+[13:19:00] [32minfo[39m: ✅ MongoDB connected successfully
+[13:19:00] [32minfo[39m: Server running on port 5000
+[13:22:13] [32minfo[39m: ✅ MongoDB connected successfully
+[13:22:13] [32minfo[39m: Server running on port 5000
+[13:22:27] [32minfo[39m: ✅ MongoDB connected successfully
+[13:22:27] [32minfo[39m: Server running on port 5000
+[13:22:35] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:52:35.789Z
+[13:22:35] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:52:35.807Z
+[13:22:56] [32minfo[39m: [Request] PATCH /api/vendor/files/69443f9520711641c58b4492/printed - 2025-12-20T07:52:56.328Z
+[13:22:56] [32minfo[39m: [Request] PATCH /api/vendor/files/69443f9420711641c58b448f/printed - 2025-12-20T07:52:56.862Z
+[13:22:57] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372dd2f1afb02bb52fda/printed - 2025-12-20T07:52:57.373Z
+[13:22:57] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372dd2f1afb02bb52fd8/printed - 2025-12-20T07:52:57.937Z
+[13:23:02] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372cd2f1afb02bb52fd4/printed - 2025-12-20T07:53:02.559Z
+[13:23:03] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372cd2f1afb02bb52fd0/printed - 2025-12-20T07:53:03.599Z
+[13:23:04] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372cd2f1afb02bb52fcc/printed - 2025-12-20T07:53:04.358Z
+[13:23:05] [32minfo[39m: [Request] PATCH /api/vendor/files/69427f1bd6a392222bedffa0/printed - 2025-12-20T07:53:05.201Z
+[13:23:05] [32minfo[39m: [Request] PATCH /api/vendor/files/6941be7c0918dbfe66fcc450/printed - 2025-12-20T07:53:05.901Z
+[13:23:09] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:09.885Z
+[13:23:09] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:09.890Z
+[13:23:26] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372cd2f1afb02bb52fd2/printed - 2025-12-20T07:53:26.026Z
+[13:23:28] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372bd2f1afb02bb52fca/printed - 2025-12-20T07:53:28.547Z
+[13:23:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:36.043Z
+[13:23:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:36.051Z
+[13:23:41] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372dd2f1afb02bb52fd6/printed - 2025-12-20T07:53:41.099Z
+[13:23:42] [32minfo[39m: [Request] PATCH /api/vendor/files/6944372cd2f1afb02bb52fce/printed - 2025-12-20T07:53:42.330Z
+[13:23:43] [32minfo[39m: [Request] PATCH /api/vendor/files/69427f1ad6a392222bedff9e/printed - 2025-12-20T07:53:43.005Z
+[13:23:43] [32minfo[39m: [Request] PATCH /api/vendor/files/6941be7b0918dbfe66fcc44a/printed - 2025-12-20T07:53:43.732Z
+[13:23:50] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:50.686Z
+[13:23:50] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:53:50.694Z
+[13:24:49] [32minfo[39m: [Request] POST /api/files/upload? - 2025-12-20T07:54:49.830Z
+[13:25:20] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:55:20.318Z
+[13:25:20] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:55:20.937Z
+[13:25:29] [32minfo[39m: [Request] PATCH /api/vendor/files/6946565c58e360867975eda8/printed - 2025-12-20T07:55:29.621Z
+[13:25:30] [32minfo[39m: [Request] PATCH /api/vendor/files/6946565c58e360867975eda4/printed - 2025-12-20T07:55:30.513Z
+[13:25:31] [32minfo[39m: [Request] PATCH /api/vendor/files/6946565558e360867975ed9f/printed - 2025-12-20T07:55:31.362Z
+[13:25:32] [32minfo[39m: [Request] PATCH /api/vendor/files/6946565058e360867975ed99/printed - 2025-12-20T07:55:32.240Z
+[13:25:44] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:55:44.862Z
+[13:25:46] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T07:55:46.347Z
+[14:29:18] [32minfo[39m: ✅ MongoDB connected successfully
+[14:29:18] [32minfo[39m: Server running on port 5000
+[22:00:47] [31merror[39m: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1169:11)
+    at NativeConnection.openUri (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1100:11)
+    at async connectDB (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/config/db.js:13:5)
+    at async file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:71:1
+[22:01:19] [31merror[39m: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1169:11)
+    at NativeConnection.openUri (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1100:11)
+    at async connectDB (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/config/db.js:13:5)
+    at async file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:71:1
+[22:01:44] [31merror[39m: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1169:11)
+    at NativeConnection.openUri (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1100:11)
+    at async connectDB (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/config/db.js:13:5)
+    at async file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:71:1
+[22:02:05] [31merror[39m: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1169:11)
+    at NativeConnection.openUri (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\mongoose\lib\connection.js:1100:11)
+    at async connectDB (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/config/db.js:13:5)
+    at async file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:71:1
+[22:02:41] [32minfo[39m: ✅ MongoDB connected successfully
+[22:02:41] [32minfo[39m: Server running on port 5000
+[22:12:42] [32minfo[39m: [Request] GET /favicon.ico - 2025-12-20T16:42:42.567Z
+[22:12:46] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T16:42:46.517Z
+[22:12:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-20T16:42:47.922Z
+[22:13:05] [32minfo[39m: [Request] GET /api/vendor/qr/download - 2025-12-20T16:43:05.958Z
+[23:15:41] [32minfo[39m: ✅ MongoDB connected successfully
+[23:15:41] [32minfo[39m: Server running on port 5000

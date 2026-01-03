@@ -1,0 +1,19 @@
+[12:27:31] [32minfo[39m: ✅ MongoDB connected successfully
+[12:27:31] [32minfo[39m: Server running on port 5000
+[12:33:22] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:03:22.326Z
+[12:33:22] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:03:22.785Z
+[12:33:30] [32minfo[39m: [Request] POST /api/vendor/login - 2025-12-27T07:03:30.586Z
+[12:33:31] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:03:31.152Z
+[12:33:33] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:03:33.154Z
+[12:33:47] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-27T07:03:47.046Z
+[12:33:47] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOWE0OWM2OTUzZDI0ZjdlYWMyNmYiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2ODE5MDI3LCJleHAiOjE3NjY4MTkzMjd9.87G4JzctoI0-nRo3O1PjTawmFXALQcyDog8zVxmZkvA - 2025-12-27T07:03:47.291Z
+[12:33:51] [32minfo[39m: [Request] GET /api/file-access/694b9892c6953d24f7eac218/preview-url - 2025-12-27T07:03:51.197Z
+[12:33:51] [32minfo[39m: [Request] GET /api/file-access/694b9892c6953d24f7eac218/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOTg5MmM2OTUzZDI0ZjdlYWMyMTgiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2ODE5MDMxLCJleHAiOjE3NjY4MTkzMzF9.hylTTVviTZtm9tfFDL4v40fvvDI8Vi2C58jHzSoidJ8 - 2025-12-27T07:03:51.471Z
+[12:34:02] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/preview-url - 2025-12-27T07:04:02.049Z
+[12:34:02] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzNjQyMGI5MDRlODUyZTFjYjMiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2ODE5MDQyLCJleHAiOjE3NjY4MTkzNDJ9.EnMTOD9j69vZnmiq8-9G3FixbKq2-miFjQ8m_RaFVMQ - 2025-12-27T07:04:02.338Z
+[12:34:09] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/preview-url - 2025-12-27T07:04:09.583Z
+[12:34:09] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzMzQyMGI5MDRlODUyZTFjYjAiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2ODE5MDQ5LCJleHAiOjE3NjY4MTkzNDl9.rfrCsgs9ELa4kAT9AofQkn0am7a5FYnAi6bDdnS2aXA - 2025-12-27T07:04:09.805Z
+[13:04:20] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:34:20.322Z
+[13:04:20] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-27T07:34:20.682Z
+[13:16:06] [32minfo[39m: ✅ MongoDB connected successfully
+[13:16:06] [32minfo[39m: Server running on port 5000

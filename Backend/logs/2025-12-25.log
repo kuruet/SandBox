@@ -1,0 +1,236 @@
+[12:37:15] [32minfo[39m: ✅ MongoDB connected successfully
+[12:37:15] [32minfo[39m: Server running on port 5000
+[12:37:29] [32minfo[39m: ✅ MongoDB connected successfully
+[12:37:29] [32minfo[39m: Server running on port 5000
+[12:38:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:08:17.064Z
+[12:38:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:08:17.082Z
+[12:38:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:08:29.544Z
+[12:38:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:08:29.550Z
+[12:38:33] [32minfo[39m: [Request] GET /api/files/694b9a49c6953d24f7eac26f/download - 2025-12-25T07:08:33.605Z
+[12:38:37] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T07:08:37.714Z
+[12:57:12] [32minfo[39m: ✅ MongoDB connected successfully
+[12:57:12] [32minfo[39m: Server running on port 5000
+[12:57:55] [32minfo[39m: ✅ MongoDB connected successfully
+[12:57:55] [32minfo[39m: Server running on port 5000
+[12:58:05] [32minfo[39m: ✅ MongoDB connected successfully
+[12:58:05] [32minfo[39m: Server running on port 5000
+[12:58:07] [32minfo[39m: [Request] GET /api/files/694b9a49c6953d24f7eac26f/download - 2025-12-25T07:28:07.258Z
+[12:58:12] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T07:28:12.605Z
+[12:58:20] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:28:20.886Z
+[12:58:21] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:28:21.415Z
+[12:58:23] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T07:28:23.721Z
+[12:59:31] [32minfo[39m: ✅ MongoDB connected successfully
+[12:59:31] [32minfo[39m: Server running on port 5000
+[13:05:28] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:35:28.804Z
+[13:07:31] [32minfo[39m: [Request] GET / - 2025-12-25T07:37:31.749Z
+[13:07:31] [32minfo[39m: [Request] GET /favicon.ico - 2025-12-25T07:37:31.858Z
+[13:08:34] [32minfo[39m: [Request] GET /api/files/test/download - 2025-12-25T07:38:34.461Z
+[13:09:44] [32minfo[39m: [Request] GET /api/files/test/download - 2025-12-25T07:39:44.331Z
+[13:15:19] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T07:45:19.296Z
+[13:17:00] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:47:00.781Z
+[13:17:24] [32minfo[39m: [Request] POST /api/auth/login - 2025-12-25T07:47:24.061Z
+[13:17:37] [32minfo[39m: [Request] POST /api/auth/login - 2025-12-25T07:47:37.025Z
+[13:17:59] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T07:47:59.685Z
+[13:18:25] [32minfo[39m: [Request] GET /api/files/694b9a49c6953d24f7eac26f/download - 2025-12-25T07:48:25.565Z
+[13:22:31] [32minfo[39m: ✅ MongoDB connected successfully
+[13:22:31] [32minfo[39m: Server running on port 5000
+[13:22:37] [32minfo[39m: ✅ MongoDB connected successfully
+[13:22:37] [32minfo[39m: Server running on port 5000
+[13:23:23] [32minfo[39m: ✅ MongoDB connected successfully
+[13:23:23] [32minfo[39m: Server running on port 5000
+[13:24:08] [32minfo[39m: ✅ MongoDB connected successfully
+[13:24:08] [32minfo[39m: Server running on port 5000
+[13:24:54] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/download - 2025-12-25T07:54:54.284Z
+[13:24:54] [32minfo[39m: [Request] GET /favicon.ico - 2025-12-25T07:54:54.516Z
+[13:25:51] [32minfo[39m: [Request] GET /.well-known/appspecific/com.chrome.devtools.json - 2025-12-25T07:55:51.659Z
+[13:28:15] [32minfo[39m: [Request] POST /api/auth/login - 2025-12-25T07:58:15.103Z
+[13:29:24] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T07:59:24.135Z
+[13:29:24] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - Cannot read properties of undefined (reading 'toString')
+TypeError: Cannot read properties of undefined (reading 'toString')
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:30:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:30:26] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:00:26.232Z
+[13:33:14] [32minfo[39m: ✅ MongoDB connected successfully
+[13:33:14] [32minfo[39m: Server running on port 5000
+[13:33:43] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:03:43.857Z
+[13:35:11] [32minfo[39m: ✅ MongoDB connected successfully
+[13:35:11] [32minfo[39m: Server running on port 5000
+[13:35:54] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:05:54.973Z
+[13:40:42] [32minfo[39m: ✅ MongoDB connected successfully
+[13:40:42] [32minfo[39m: Server running on port 5000
+[13:41:06] [32minfo[39m: ✅ MongoDB connected successfully
+[13:41:06] [32minfo[39m: Server running on port 5000
+[13:42:26] [32minfo[39m: ✅ MongoDB connected successfully
+[13:42:26] [32minfo[39m: Server running on port 5000
+[13:42:55] [32minfo[39m: ✅ MongoDB connected successfully
+[13:42:55] [32minfo[39m: Server running on port 5000
+[13:43:16] [32minfo[39m: ✅ MongoDB connected successfully
+[13:43:16] [32minfo[39m: Server running on port 5000
+[13:43:19] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:13:19.222Z
+[13:43:19] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:45:17] [32minfo[39m: ✅ MongoDB connected successfully
+[13:45:17] [32minfo[39m: Server running on port 5000
+[13:45:17] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:15:17.392Z
+[13:45:18] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:47:17] [32minfo[39m: ✅ MongoDB connected successfully
+[13:47:17] [32minfo[39m: Server running on port 5000
+[13:47:29] [32minfo[39m: ✅ MongoDB connected successfully
+[13:47:29] [32minfo[39m: Server running on port 5000
+[13:47:32] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:17:32.905Z
+[13:47:33] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:47:36] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:17:36.114Z
+[13:47:36] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:48:22] [32minfo[39m: ✅ MongoDB connected successfully
+[13:48:22] [32minfo[39m: Server running on port 5000
+[13:48:23] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:18:23.408Z
+[13:48:23] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:50:45] [32minfo[39m: ✅ MongoDB connected successfully
+[13:50:45] [32minfo[39m: Server running on port 5000
+[13:52:20] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:22:20.699Z
+[13:52:21] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[13:53:16] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:23:16.380Z
+[13:53:16] [31merror[39m: [Error] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generatePreviewToken (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/utils/filePreviewToken.util.js:7:14)
+    at getFilePreviewUrl (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/controllers/fileController.js:36:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[14:14:48] [32minfo[39m: ✅ MongoDB connected successfully
+[14:14:48] [32minfo[39m: Server running on port 5000
+[14:16:07] [32minfo[39m: ✅ MongoDB connected successfully
+[14:16:07] [32minfo[39m: Server running on port 5000
+[14:16:16] [32minfo[39m: ✅ MongoDB connected successfully
+[14:16:16] [32minfo[39m: Server running on port 5000
+[14:17:44] [32minfo[39m: ✅ MongoDB connected successfully
+[14:17:44] [32minfo[39m: Server running on port 5000
+[14:17:59] [32minfo[39m: ✅ MongoDB connected successfully
+[14:17:59] [32minfo[39m: Server running on port 5000
+[14:18:02] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T08:48:02.416Z
+[14:20:14] [32minfo[39m: [Request] GET //api/file-access/694b9a49c6953d24f7eac26f/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOWE0OWM2OTUzZDI0ZjdlYWMyNmYiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjUyNDgyLCJleHAiOjE3NjY2NTI3ODJ9.BPtK6GlPQU_HNt8Gh3o-Lx7kf-sHk1XIpceSutdQahA - 2025-12-25T08:50:14.003Z
+[14:20:21] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOWE0OWM2OTUzZDI0ZjdlYWMyNmYiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjUyNDgyLCJleHAiOjE3NjY2NTI3ODJ9.BPtK6GlPQU_HNt8Gh3o-Lx7kf-sHk1XIpceSutdQahA - 2025-12-25T08:50:21.974Z
+[14:21:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T08:51:17.019Z
+[14:21:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T08:51:17.027Z
+[14:21:18] [32minfo[39m: [Request] GET /api/files/694b9a49c6953d24f7eac26f/download - 2025-12-25T08:51:18.496Z
+[14:21:23] [32minfo[39m: [Request] GET /api/files/694b9892c6953d24f7eac218/download - 2025-12-25T08:51:23.110Z
+[14:42:16] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:12:16.457Z
+[14:42:16] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T09:12:16.774Z
+[14:42:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:12:17.120Z
+[14:44:04] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:04.429Z
+[14:44:04] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T09:14:04.734Z
+[14:44:05] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:05.389Z
+[14:44:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:17.428Z
+[14:44:17] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T09:14:17.806Z
+[14:44:18] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:18.338Z
+[14:44:29] [32minfo[39m: ✅ MongoDB connected successfully
+[14:44:29] [32minfo[39m: Server running on port 5000
+[14:44:32] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T09:14:32.787Z
+[14:44:45] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:45.368Z
+[14:44:45] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:14:45.723Z
+[14:44:48] [32minfo[39m: [Request] GET /api/files/694b9a49c6953d24f7eac26f/download - 2025-12-25T09:14:48.240Z
+[14:45:03] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:15:03.707Z
+[14:45:04] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:15:04.272Z
+[14:45:09] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:15:09.834Z
+[14:45:10] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:15:10.207Z
+[14:45:11] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T09:15:11.870Z
+[14:50:28] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:20:28.436Z
+[14:50:28] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:20:28.457Z
+[14:50:28] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T09:20:28.798Z
+[14:50:28] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T09:20:28.813Z
+[14:50:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:20:29.363Z
+[14:51:00] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:21:00.432Z
+[14:51:00] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:21:00.468Z
+[14:51:00] [32minfo[39m: [Request] GET /api/files/694b989dc6953d24f7eac221/download - 2025-12-25T09:21:00.741Z
+[14:51:00] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T09:21:00.855Z
+[14:51:01] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:21:01.156Z
+[14:51:11] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:21:11.268Z
+[14:51:11] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:21:11.273Z
+[14:51:12] [32minfo[39m: [Request] GET /api/files/694b9892c6953d24f7eac218/download - 2025-12-25T09:21:12.555Z
+[14:52:04] [32minfo[39m: ✅ MongoDB connected successfully
+[14:52:04] [32minfo[39m: Server running on port 5000
+[14:52:05] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:22:05.815Z
+[14:52:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:22:06.095Z
+[14:52:07] [32minfo[39m: [Request] GET /api/files/694b989ac6953d24f7eac21e/download - 2025-12-25T09:22:07.859Z
+[14:55:29] [32minfo[39m: ✅ MongoDB connected successfully
+[14:55:29] [32minfo[39m: Server running on port 5000
+[14:58:04] [32minfo[39m: ✅ MongoDB connected successfully
+[14:58:04] [32minfo[39m: Server running on port 5000
+[14:58:14] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:28:14.057Z
+[14:58:14] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:28:14.476Z
+[14:58:15] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:28:15.034Z
+[14:58:15] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:28:15.400Z
+[15:00:21] [32minfo[39m: ✅ MongoDB connected successfully
+[15:00:21] [32minfo[39m: Server running on port 5000
+[15:00:21] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:30:21.974Z
+[15:00:22] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:30:22.306Z
+[15:00:23] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:30:23.182Z
+[15:00:23] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:30:23.447Z
+[15:03:18] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:18.128Z
+[15:03:18] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:18.494Z
+[15:03:22] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:22.775Z
+[15:03:23] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:23.060Z
+[15:03:38] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:38.931Z
+[15:03:39] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:39.186Z
+[15:03:52] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:52.206Z
+[15:03:52] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:33:52.719Z
+[15:04:02] [32minfo[39m: ✅ MongoDB connected successfully
+[15:04:02] [32minfo[39m: Server running on port 5000
+[15:04:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:34:06.375Z
+[15:04:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:34:06.924Z
+[15:04:07] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/preview-url - 2025-12-25T09:34:07.911Z
+[15:04:08] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzNjQyMGI5MDRlODUyZTFjYjMiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1MjQ4LCJleHAiOjE3NjY2NTU1NDh9.8KztMQkrv5BGktw8uUQdz_-qUHj3RkXdmuKTBondIkU - 2025-12-25T09:34:08.127Z
+[15:09:37] [32minfo[39m: ✅ MongoDB connected successfully
+[15:09:37] [32minfo[39m: Server running on port 5000
+[15:09:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:39:47.779Z
+[15:09:48] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:39:48.114Z
+[15:09:50] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/preview-url - 2025-12-25T09:39:50.096Z
+[15:09:50] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzMzQyMGI5MDRlODUyZTFjYjAiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NTkwLCJleHAiOjE3NjY2NTU4OTB9.KpGiQldUpn3tYEHqbjISRhrrL8tvkoB86-Vz6I-fbrs - 2025-12-25T09:39:50.288Z
+[15:11:48] [32minfo[39m: ✅ MongoDB connected successfully
+[15:11:48] [32minfo[39m: Server running on port 5000
+[15:12:02] [32minfo[39m: ✅ MongoDB connected successfully
+[15:12:02] [32minfo[39m: Server running on port 5000
+[15:12:07] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:42:07.710Z
+[15:12:08] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:42:08.087Z
+[15:12:09] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T09:42:09.359Z
+[15:12:09] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOWE0OWM2OTUzZDI0ZjdlYWMyNmYiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzI5LCJleHAiOjE3NjY2NTYwMjl9.aocGDqN64UbLZNcwMygsfFSqW2Ws0bfRSGVmogP9DIQ - 2025-12-25T09:42:09.641Z
+[15:12:13] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/preview-url - 2025-12-25T09:42:13.078Z
+[15:12:13] [32minfo[39m: [Request] GET /api/file-access/6948fc36420b904e852e1cb3/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzNjQyMGI5MDRlODUyZTFjYjMiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzMzLCJleHAiOjE3NjY2NTYwMzN9.kUlAkOi1EsrAEouxiMNJNzjtr98qC9jQfmpmtGy38Vs - 2025-12-25T09:42:13.322Z
+[15:12:25] [32minfo[39m: [Request] GET /api/file-access/694b98a3c6953d24f7eac224/preview-url - 2025-12-25T09:42:25.328Z
+[15:12:25] [32minfo[39m: [Request] GET /api/file-access/694b98a3c6953d24f7eac224/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOThhM2M2OTUzZDI0ZjdlYWMyMjQiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzQ1LCJleHAiOjE3NjY2NTYwNDV9.tr5aFcWg5gymi8LcokfVvx-w9JxV7shR7Adu5wADRKM - 2025-12-25T09:42:25.715Z
+[15:12:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:42:36.529Z
+[15:12:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2025-12-25T09:42:36.853Z
+[15:12:38] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/preview-url - 2025-12-25T09:42:38.117Z
+[15:12:38] [32minfo[39m: [Request] GET /api/file-access/694b9a49c6953d24f7eac26f/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOWE0OWM2OTUzZDI0ZjdlYWMyNmYiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzU4LCJleHAiOjE3NjY2NTYwNTh9.JuIC1N1PXjMhexREru5nz-p6lqfktiKY0o9VuA1vwlg - 2025-12-25T09:42:38.522Z
+[15:13:01] [32minfo[39m: [Request] GET /api/file-access/694b989ac6953d24f7eac21e/preview-url - 2025-12-25T09:43:01.864Z
+[15:13:02] [32minfo[39m: [Request] GET /api/file-access/694b989ac6953d24f7eac21e/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTRiOTg5YWM2OTUzZDI0ZjdlYWMyMWUiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzgyLCJleHAiOjE3NjY2NTYwODJ9.8riErByi3aGoRvoHK4e6n0_lf32rRVPnfa8czuKxg6k - 2025-12-25T09:43:02.277Z
+[15:13:10] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/preview-url - 2025-12-25T09:43:10.175Z
+[15:13:10] [32minfo[39m: [Request] GET /api/file-access/6948fc33420b904e852e1cb0/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTQ4ZmMzMzQyMGI5MDRlODUyZTFjYjAiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY2NjU1NzkwLCJleHAiOjE3NjY2NTYwOTB9.8r9l8rwkDVwTv-LJ8QlwFTwj8d6GK8Fg4OYemLWtWPg - 2025-12-25T09:43:10.562Z

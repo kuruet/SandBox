@@ -51,3 +51,15 @@
 [20:54:57] [32minfo[39m: Database connected
 [20:58:26] [32minfo[39m: [Request] GET / - 2026-01-17T15:28:26.893Z
 [20:58:27] [32minfo[39m: [Request] GET /favicon.ico - 2026-01-17T15:28:27.096Z
+[21:02:29] [32minfo[39m: Server running on port 3000
+[21:02:31] [32minfo[39m: ✅ MongoDB connected successfully
+[21:02:31] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[21:02:31] [32minfo[39m: Database connected
+[21:18:22] [32minfo[39m: Server running on port 3000
+[21:18:24] [32minfo[39m: ✅ MongoDB connected successfully
+[21:18:24] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[21:18:24] [32minfo[39m: Database connected
+[21:31:52] [32minfo[39m: Server running on port 3000
+[21:31:54] [32minfo[39m: ✅ MongoDB connected successfully
+[21:31:54] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[21:31:54] [32minfo[39m: Database connected

@@ -5,6 +5,7 @@ export const validateEnv = () => {
     "MONGODB_URI",
     "JWT_SECRET",
     "FILE_PREVIEW_SECRET",
+     "FRONTEND_PUBLIC_URL",
   ];
 
   requiredVars.forEach((key) => {

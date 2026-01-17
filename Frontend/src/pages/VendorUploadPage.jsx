@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 
 
-const API_BASE = import.meta.env.VITE_BACKEND_URL;
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
 
 const VendorUploadPage = () => {

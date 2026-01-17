@@ -126,12 +126,21 @@ if (!vendor) {
 }
 
 // ✅ ENSURE QR EXISTS (lazy generation for new vendors)
+// ✅ ENSURE QR EXISTS (lazy generation for new vendors)
 if (!vendor.qrCodeUrl) {
-  const uploadUrl = `${process.env.FRONTEND_URL}/upload?qrId=${vendor.qrId}`;
+  const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+
+  if (!frontendUrl) {
+    throw new Error("FRONTEND_PUBLIC_URL is not configured");
+  }
+
+  const uploadUrl = `${frontendUrl}/upload?qrId=${vendor.qrId}`;
   const qrDataUrl = await QRCode.toDataURL(uploadUrl);
+
   vendor.qrCodeUrl = qrDataUrl;
   await vendor.save();
 }
+
 
 
     const now = new Date();

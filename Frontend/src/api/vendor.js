@@ -20,7 +20,7 @@ api.interceptors.response.use(
 export default api;
 
 // ❌ KEEP BASE_URL (not deleting old code)
-const BASE_URL = "http://localhost:5000/api";
+// const BASE_URL = "http://localhost:5000/api";
 
 // ---------------------------
 // Vendor Login API

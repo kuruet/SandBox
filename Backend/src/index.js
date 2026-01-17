@@ -120,7 +120,7 @@ const server = http.createServer(app);
 
 initSocket(server);
 
-server.listen(PORT, () => {
+server.listen(PORT,"0.0.0.0", () => {
   logger.info(`Server running on port ${PORT}`);
 });
 

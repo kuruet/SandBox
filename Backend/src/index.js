@@ -109,17 +109,7 @@ app.use("/admin", adminModule);
 app.use(errorHandler);
 
 // DB
-await connectDB();
-
-startFileCleanupJob();
-startExpiredFileCleanupJob();
-
-// Base route
-app.get("/", (req, res) => {
-  res.send("Sandbox Backend is running");
-});
- 
-// Server
+// Server MUST start first
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
 
@@ -127,4 +117,20 @@ initSocket(server);
 
 server.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);
- });
+});
+
+// DB connects AFTER server is listening
+connectDB()
+  .then(() => {
+    startFileCleanupJob();
+    startExpiredFileCleanupJob();
+    logger.info("Database connected");
+  })
+  .catch(err => {
+    logger.error("Database connection failed", err);
+  });
+
+
+ app.get("/", (req, res) => {
+  res.send("Sandbox Backend is running");
+});

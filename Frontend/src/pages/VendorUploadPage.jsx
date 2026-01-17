@@ -2,6 +2,10 @@ import React, { useState, useRef, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 
+
+const API_BASE = import.meta.env.VITE_BACKEND_URL;
+
+
 const VendorUploadPage = () => {
   const [senderName, setSenderName] = useState("");
   const [files, setFiles] = useState([]);
@@ -13,6 +17,8 @@ const VendorUploadPage = () => {
   const [vendorLoading, setVendorLoading] = useState(true);
   const [vendorError, setVendorError] = useState("");
   const [fileError, setFileError] = useState("");
+  const [uploadProgress, setUploadProgress] = useState(0);
+
 
   const fileInputRef = useRef(null);
 
@@ -26,10 +32,10 @@ const VendorUploadPage = () => {
   ];
 
   const [searchParams] = useSearchParams();
-  const vendorId = searchParams.get("vendorId");
+  const qrId = searchParams.get("qrId");
 
   useEffect(() => {
-    if (!vendorId) {
+    if (!qrId) {
       setVendorError("Invalid QR code");
       setVendorLoading(false);
       return;
@@ -37,7 +43,8 @@ const VendorUploadPage = () => {
 
     const fetchVendor = async () => {
       try {
-        const res = await axios.get(`/public/vendors/${vendorId}`);
+        const res = await axios.get(`${API_BASE}/public/vendors/qr/${qrId}`);
+
 
         setShopName(res.data.shopName);
       } catch (err) {
@@ -52,7 +59,7 @@ const VendorUploadPage = () => {
     };
 
     fetchVendor();
-  }, [vendorId]);
+  }, [qrId]);
 
   const handleDrag = (e) => {
     e.preventDefault();
@@ -128,44 +135,68 @@ const VendorUploadPage = () => {
     return Math.round((bytes / Math.pow(k, i)) * 100) / 100 + " " + sizes[i];
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    if (!senderName.trim()) {
-      setNameError("Please enter your name");
-      return;
-    }
+  // 🔒 Guard against malformed / missing QR
+  if (!qrId) {
+    alert("Invalid QR code");
+    return;
+  }
 
-    if (files.length === 0) return;
+  if (!senderName.trim()) {
+    setNameError("Please enter your name");
+    return;
+  }
 
-    setUploading(true);
-    setNameError("");
+  if (files.length === 0) return;
 
-    try {
-      const formData = new FormData();
-      formData.append("senderName", senderName.trim());
+  setUploading(true);
+  setNameError("");
 
-      files.forEach((file) => {
-        formData.append("files", file);
-      });
+  try {
+    const formData = new FormData();
+    formData.append("senderName", senderName.trim());
 
-      await axios.post(`/public/vendors/${vendorId}/upload`, formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+    files.forEach((file) => {
+      formData.append("files", file);
+    });
 
-      // ✅ Success reset
-      setSenderName("");
-      setFiles([]);
-      alert("Files sent successfully");
-    } catch (err) {
-      console.error("Upload failed:", err);
-      alert("Failed to send files. Please try again.");
-    } finally {
-      setUploading(false);
-    }
-  };
+    // ❌ DO NOT set Content-Type manually
+await axios.post(
+  `${API_BASE}/public/vendors/qr/${qrId}/upload`,
+  formData,
+  {
+    onUploadProgress: (event) => {
+      if (!event.total) return;
+      const percent = Math.round(
+        (event.loaded * 100) / event.total
+      );
+      setUploadProgress(percent);
+    },
+  }
+);
+setUploadProgress(0);
+
+
+setUploading(false);
+setUploadProgress(0);
+
+
+
+
+    // ✅ Success reset
+    setSenderName("");
+    setFiles([]);
+    alert("Files sent successfully");
+  } catch (err) {
+    console.error("Upload failed:", err);
+    alert("Failed to send files. Please try again.");
+  } finally {
+    setUploading(false);
+  }
+};
+
 
   const canSubmit = senderName.trim() && files.length > 0 && !uploading;
 
@@ -472,6 +503,22 @@ const VendorUploadPage = () => {
             )}
           </div>
 
+          {uploading && (
+  <div className="w-full mt-4">
+    <div className="w-full h-2 bg-gray-700 rounded">
+      <div
+        className="h-2 bg-blue-500 rounded transition-all"
+        style={{ width: `${uploadProgress}%` }}
+      />
+    </div>
+    <p className="text-xs text-gray-300 mt-1 text-center">
+      Uploading… {uploadProgress}%
+    </p>
+  </div>
+)}
+
+
+
           <button
             type="submit"
             disabled={!canSubmit}
@@ -489,6 +536,9 @@ const VendorUploadPage = () => {
           >
             {uploading ? "Sending..." : "Send Files"}
           </button>
+
+          
+
 
           <div
             className="pt-4 border-t"

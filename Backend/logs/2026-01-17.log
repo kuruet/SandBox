@@ -1,0 +1,10 @@
+[10:31:33] [32minfo[39m: ✅ MongoDB connected successfully
+[10:31:33] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[10:31:33] [32minfo[39m: Server running on port 5000
+[10:31:45] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:45.181Z
+[10:31:45] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:45.409Z
+[10:31:48] [32minfo[39m: [Request] GET /favicon.ico - 2026-01-17T05:01:48.064Z
+[10:31:52] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:52.504Z
+[10:31:52] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:52.702Z
+[10:31:56] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:56.382Z
+[10:31:56] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-17T05:01:56.690Z

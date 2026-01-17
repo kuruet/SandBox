@@ -1,0 +1,485 @@
+[00:00:12] [32minfo[39m: ✅ MongoDB connected successfully
+[00:00:12] [32minfo[39m: Server running on port 5000
+[00:00:15] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:30:15.966Z
+[00:00:16] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:30:16.063Z
+[00:00:30] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:30:30.717Z
+[00:02:07] [32minfo[39m: ✅ MongoDB connected successfully
+[00:02:07] [32minfo[39m: Server running on port 5000
+[00:02:18] [32minfo[39m: ✅ MongoDB connected successfully
+[00:02:18] [32minfo[39m: Server running on port 5000
+[00:02:24] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:32:24.811Z
+[00:02:49] [32minfo[39m: ✅ MongoDB connected successfully
+[00:02:49] [32minfo[39m: Server running on port 5000
+[00:02:51] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:32:51.122Z
+[00:04:48] [32minfo[39m: ✅ MongoDB connected successfully
+[00:04:48] [32minfo[39m: Server running on port 5000
+[00:04:56] [32minfo[39m: ✅ MongoDB connected successfully
+[00:04:57] [32minfo[39m: Server running on port 5000
+[00:05:04] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:35:04.039Z
+[00:07:34] [32minfo[39m: ✅ MongoDB connected successfully
+[00:07:34] [32minfo[39m: Server running on port 5000
+[00:07:42] [32minfo[39m: ✅ MongoDB connected successfully
+[00:07:42] [32minfo[39m: Server running on port 5000
+[00:07:50] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:37:50.559Z
+[00:07:55] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:37:55.097Z
+[00:07:55] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:37:55.147Z
+[00:08:03] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:38:03.342Z
+[00:12:06] [32minfo[39m: ✅ MongoDB connected successfully
+[00:12:06] [32minfo[39m: Server running on port 5000
+[00:12:13] [32minfo[39m: ✅ MongoDB connected successfully
+[00:12:13] [32minfo[39m: Server running on port 5000
+[00:12:21] [32minfo[39m: ✅ MongoDB connected successfully
+[00:12:21] [32minfo[39m: Server running on port 5000
+[00:12:26] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:42:26.578Z
+[00:15:29] [32minfo[39m: ✅ MongoDB connected successfully
+[00:15:29] [32minfo[39m: Server running on port 5000
+[00:15:33] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:45:33.464Z
+[00:15:55] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T18:45:55.784Z
+[00:15:55] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T18:45:55.920Z
+[00:16:01] [32minfo[39m: [Request] GET /api/file-access/6967e44da6e742a9daf786fe/preview-url - 2026-01-14T18:46:01.034Z
+[00:16:01] [32minfo[39m: [Request] GET /api/file-access/6967e44da6e742a9daf786fe/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY3ZTQ0ZGE2ZTc0MmE5ZGFmNzg2ZmUiLCJ2ZW5kb3JJZCI6IjU2ZTIyMzhiLTYwNjQtNDQxYS04YjJjLTA3YmQwYzA0MTcyMCIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDE2MzYxLCJleHAiOjE3Njg0MTY2NjF9.WGROK_KXoEHrEAsytgSnRGBxF4kVu-r7NvuMFnLH09Y - 2026-01-14T18:46:01.352Z
+[00:16:09] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:46:09.427Z
+[00:26:10] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:56:10.315Z
+[00:26:42] [32minfo[39m: ✅ MongoDB connected successfully
+[00:26:42] [32minfo[39m: Server running on port 5000
+[10:06:09] [32minfo[39m: ✅ MongoDB connected successfully
+[10:06:09] [32minfo[39m: Server running on port 5000
+[10:06:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:17.720Z
+[10:06:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:17.817Z
+[10:06:28] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:28.947Z
+[10:06:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:29.100Z
+[10:06:34] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:34.234Z
+[10:06:34] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:36:34.304Z
+[10:06:38] [32minfo[39m: [Request] PATCH /api/vendor/files/6967e6caa6e742a9daf7870d/printed - 2026-01-15T04:36:38.626Z
+[10:06:40] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T04:36:40.469Z
+[10:06:40] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T04:36:40.482Z
+[10:06:43] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T04:36:43.443Z
+[10:07:40] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:37:40.793Z
+[10:07:40] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:37:40.798Z
+[10:07:51] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-15T04:37:51.069Z
+[10:07:51] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:37:51.354Z
+[10:07:51] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:37:51.360Z
+[10:08:04] [32minfo[39m: [Request] PATCH /api/vendor/files/6967e471a6e742a9daf7870a/printed - 2026-01-15T04:38:04.535Z
+[10:08:53] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T04:38:53.270Z
+[10:09:08] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T04:39:08.535Z
+[10:24:06] [32minfo[39m: ✅ MongoDB connected successfully
+[10:24:06] [32minfo[39m: Server running on port 5000
+[10:24:15] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:54:15.420Z
+[10:24:15] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T04:54:15.439Z
+[10:24:51] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T04:54:51.039Z
+[10:24:51] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T04:54:51.072Z
+[10:28:25] [32minfo[39m: ✅ MongoDB connected successfully
+[10:28:25] [32minfo[39m: Server running on port 5000
+[10:28:49] [32minfo[39m: [Request] GET /api/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T04:58:49.554Z
+[10:28:49] [32minfo[39m: [Request] GET /favicon.ico - 2026-01-15T04:58:49.805Z
+[10:30:10] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:00:10.825Z
+[10:30:10] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:00:10.972Z
+[10:31:08] [32minfo[39m: [Request] POST /api/vendor/register - 2026-01-15T05:01:08.719Z
+[10:31:14] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-15T05:01:14.479Z
+[10:31:14] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:01:14.737Z
+[10:31:14] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:01:14.986Z
+[10:32:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:02:29.641Z
+[10:32:30] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:02:30.779Z
+[10:38:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:08:29.894Z
+[10:38:30] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:08:30.106Z
+[10:42:53] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:12:53.635Z
+[10:42:53] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:12:53.829Z
+[10:42:55] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:12:55.235Z
+[10:42:55] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:12:55.376Z
+[10:43:05] [31merror[39m: [Error] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:43:16] [31merror[39m: [Error] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:43:24] [31merror[39m: [Error] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:43:38] [31merror[39m: [Error] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:44:22] [31merror[39m: [Error] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:44:22] [31merror[39m: [Error] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:47:00] [32minfo[39m: ✅ MongoDB connected successfully
+[10:47:00] [32minfo[39m: Server running on port 5000
+[10:47:15] [31merror[39m: [Error] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:47:15] [31merror[39m: [Error] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:47:18)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[10:49:36] [32minfo[39m: ✅ MongoDB connected successfully
+[10:49:36] [32minfo[39m: Server running on port 5000
+[10:50:18] [32minfo[39m: ✅ MongoDB connected successfully
+[10:50:18] [32minfo[39m: Server running on port 5000
+[10:50:28] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:20:28.705Z
+[10:51:34] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T05:21:34.310Z
+[10:51:52] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/preview-url - 2026-01-15T05:21:52.859Z
+[10:51:53] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4Nzk1ZmZjNmFiZjA3YTkxZWY1MjgiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU0NTEzLCJleHAiOjE3Njg0NTQ4MTN9.2ImY9RYWwRRusHS9cVXA3B7BjRy8rrGrotmDPcorUro - 2026-01-15T05:21:53.132Z
+[10:52:07] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/preview-url - 2026-01-15T05:22:07.457Z
+[10:52:07] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4Nzk1ZmZjNmFiZjA3YTkxZWY1MjgiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU0NTI3LCJleHAiOjE3Njg0NTQ4Mjd9.BUqAQpdDAGDrfmEqrlPF6gOFPewUCyXFEKX1fXU70g8 - 2026-01-15T05:22:07.554Z
+[10:52:36] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:22:36.477Z
+[10:53:19] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T05:23:19.651Z
+[10:54:01] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:24:01.123Z
+[10:54:01] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:24:01.220Z
+[11:00:50] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:30:50.859Z
+[11:00:51] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:30:51.063Z
+[11:01:00] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:31:00.340Z
+[11:01:06] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-15T05:31:06.183Z
+[11:01:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:31:06.437Z
+[11:01:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:31:06.615Z
+[11:01:21] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:31:21.863Z
+[11:01:52] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T05:31:52.453Z
+[11:02:25] [32minfo[39m: [Request] GET /api/file-access/69687bccfc6abf07a91ef546/preview-url - 2026-01-15T05:32:25.894Z
+[11:02:26] [32minfo[39m: [Request] GET /api/file-access/69687bccfc6abf07a91ef546/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2JjY2ZjNmFiZjA3YTkxZWY1NDYiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1MTQ2LCJleHAiOjE3Njg0NTU0NDZ9.tYiq0awtUh-wLKSHr2MLK-uISSpXArJpdlVOfNv6iDA - 2026-01-15T05:32:26.366Z
+[11:05:29] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:35:29.892Z
+[11:05:30] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:35:30.219Z
+[11:05:36] [32minfo[39m: [Request] GET /api/file-access/69687bccfc6abf07a91ef552/preview-url - 2026-01-15T05:35:36.725Z
+[11:05:36] [32minfo[39m: [Request] GET /api/file-access/69687bccfc6abf07a91ef552/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2JjY2ZjNmFiZjA3YTkxZWY1NTIiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1MzM2LCJleHAiOjE3Njg0NTU2MzZ9.hBVKLJlq3o5PouMQC4tt7OSNZPglG50UqXnrvvElnsE - 2026-01-15T05:35:36.811Z
+[11:07:25] [32minfo[39m: ✅ MongoDB connected successfully
+[11:07:25] [32minfo[39m: Server running on port 5000
+[11:08:40] [32minfo[39m: ✅ MongoDB connected successfully
+[11:08:40] [32minfo[39m: Server running on port 5000
+[11:09:13] [32minfo[39m: ✅ MongoDB connected successfully
+[11:09:13] [32minfo[39m: Server running on port 5000
+[11:09:23] [32minfo[39m: [Request] PATCH /api/vendor/files/bulk-delete - 2026-01-15T05:39:23.653Z
+[11:09:25] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:39:25.996Z
+[11:09:26] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:39:26.299Z
+[11:09:43] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:39:43.688Z
+[11:10:11] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T05:40:11.455Z
+[11:10:54] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T05:40:54.590Z
+[11:11:18] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T05:41:18.729Z
+[11:13:42] [32minfo[39m: [Request] PATCH /api/vendor/files/bulk-delete - 2026-01-15T05:43:42.791Z
+[11:13:46] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8fb/preview-url - 2026-01-15T05:43:46.260Z
+[11:13:46] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8fb/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZmIiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODI2LCJleHAiOjE3Njg0NTYxMjZ9._KbX3iNE5sYJ5Q56Zfmjlc7WhK5rdI7EY7Ce8IUhjDM - 2026-01-15T05:43:46.507Z
+[11:13:53] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f9/preview-url - 2026-01-15T05:43:53.083Z
+[11:13:53] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f9/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjkiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODMzLCJleHAiOjE3Njg0NTYxMzN9.ip4_3f6MLu9FQxFX0Tsal9quMmfsZ2_EJoWy57UV_J0 - 2026-01-15T05:43:53.172Z
+[11:13:59] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f5/preview-url - 2026-01-15T05:43:59.947Z
+[11:14:00] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f5/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjUiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODQwLCJleHAiOjE3Njg0NTYxNDB9.zQUFMEnu2m3oPYNW3ugpo47zCOUhUHE8oiqXmfnA7e8 - 2026-01-15T05:44:00.036Z
+[11:14:06] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f7/preview-url - 2026-01-15T05:44:06.636Z
+[11:14:06] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f7/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjciLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODQ2LCJleHAiOjE3Njg0NTYxNDZ9.AeZ9Di7THnlpcWuN1L3BoXbXjqbo7edzB32Ssgcjr60 - 2026-01-15T05:44:06.852Z
+[11:14:12] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f9/preview-url - 2026-01-15T05:44:12.498Z
+[11:14:12] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f9/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjkiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODUyLCJleHAiOjE3Njg0NTYxNTJ9.H3K0F4dP8rBdIcp7IQ1V2igbSdI1V_YSl_5EA1Jd2v8 - 2026-01-15T05:44:12.603Z
+[11:14:15] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f5/preview-url - 2026-01-15T05:44:15.610Z
+[11:14:15] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f5/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjUiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODU1LCJleHAiOjE3Njg0NTYxNTV9.54L_xjhtGGaftfA8FMFRD-IvtLGOF-gzVftJcuG_XzA - 2026-01-15T05:44:15.803Z
+[11:14:19] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f3/preview-url - 2026-01-15T05:44:19.435Z
+[11:14:19] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f3/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjMiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODU5LCJleHAiOjE3Njg0NTYxNTl9.Skx4SO8pc-Jp4Ql3hoV3uyOeCZddZv1BsRGogl5g7X8 - 2026-01-15T05:44:19.682Z
+[11:14:25] [32minfo[39m: [Request] GET /api/file-access/696879c8fc6abf07a91ef532/preview-url - 2026-01-15T05:44:25.241Z
+[11:14:25] [32minfo[39m: [Request] GET /api/file-access/696879c8fc6abf07a91ef532/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4NzljOGZjNmFiZjA3YTkxZWY1MzIiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODY1LCJleHAiOjE3Njg0NTYxNjV9.ehcPcBB3nfFrAYIdWgQeqT2Rll1qd5QoOrNs_swWYzo - 2026-01-15T05:44:25.377Z
+[11:14:30] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8ef/preview-url - 2026-01-15T05:44:30.697Z
+[11:14:31] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8ef/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZWYiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDU1ODcwLCJleHAiOjE3Njg0NTYxNzB9.s3OoO2_ZOxxiVxjWLuq5JIR-Dgwdl7eshvXUpMMbHaI - 2026-01-15T05:44:31.012Z
+[11:15:26] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T05:45:26.466Z
+[11:15:50] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:45:50.213Z
+[11:15:50] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T05:45:50.541Z
+[11:24:40] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:54:40.565Z
+[11:24:40] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T05:54:40.569Z
+[11:31:00] [32minfo[39m: ✅ MongoDB connected successfully
+[11:31:00] [32minfo[39m: Server running on port 5000
+[11:31:11] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T06:01:11.205Z
+[11:31:52] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T06:01:52.042Z
+[11:32:10] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:02:10.676Z
+[11:32:10] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:02:10.761Z
+[11:32:40] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T06:02:40.201Z
+[11:32:55] [32minfo[39m: [Request] PATCH /api/vendor/files/69688300253b339d768131ec/printed - 2026-01-15T06:02:55.197Z
+[11:39:39] [32minfo[39m: ✅ MongoDB connected successfully
+[11:39:39] [32minfo[39m: Server running on port 5000
+[11:40:05] [32minfo[39m: ✅ MongoDB connected successfully
+[11:40:05] [32minfo[39m: Server running on port 5000
+[11:40:33] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:10:33.975Z
+[11:40:34] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:10:34.033Z
+[11:40:41] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T06:10:41.602Z
+[11:41:59] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:11:59.647Z
+[11:41:59] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T06:11:59.711Z
+[11:43:25] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T06:13:25.297Z
+[11:43:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T06:13:36.689Z
+[11:43:36] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T06:13:36.800Z
+[11:43:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T06:13:47.243Z
+[11:43:47] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T06:13:47.345Z
+[21:37:45] [32minfo[39m: ✅ MongoDB connected successfully
+[21:37:45] [32minfo[39m: Server running on port 5000
+[21:38:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:08:06.162Z
+[21:38:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:08:06.191Z
+[21:38:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:08:06.196Z
+[21:38:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:08:06.268Z
+[21:38:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:08:06.273Z
+[21:38:06] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:08:06.421Z
+[21:38:08] [32minfo[39m: [Request] GET /favicon.ico - 2026-01-15T16:08:08.910Z
+[21:38:24] [32minfo[39m: [Request] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - 2026-01-15T16:08:24.462Z
+[21:38:50] [32minfo[39m: [Request] POST /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0/upload - 2026-01-15T16:08:50.683Z
+[21:38:52] [32minfo[39m: [Request] GET /api/file-access/69691113a06b3c921e0107cc/preview-url - 2026-01-15T16:08:52.616Z
+[21:38:52] [32minfo[39m: [Request] GET /api/file-access/69691113a06b3c921e0107cc/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY5MTExM2EwNmIzYzkyMWUwMTA3Y2MiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDkzMzMyLCJleHAiOjE3Njg0OTM2MzJ9.U8-iKxQIdngCWPfume0IzG_3BZ6SnTlMH_XXZT9DIRc - 2026-01-15T16:08:52.685Z
+[21:39:14] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/preview-url - 2026-01-15T16:09:14.152Z
+[21:39:14] [32minfo[39m: [Request] GET /api/file-access/6968795ffc6abf07a91ef528/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4Nzk1ZmZjNmFiZjA3YTkxZWY1MjgiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDkzMzU0LCJleHAiOjE3Njg0OTM2NTR9.fCXqLFl4uQ_Z-IfiNePtkMs5RJ8e7O05b3Cb3g2nZPg - 2026-01-15T16:09:14.215Z
+[21:39:24] [32minfo[39m: [Request] GET /api/file-access/696879c8fc6abf07a91ef532/preview-url - 2026-01-15T16:09:24.457Z
+[21:39:24] [32minfo[39m: [Request] GET /api/file-access/696879c8fc6abf07a91ef532/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4NzljOGZjNmFiZjA3YTkxZWY1MzIiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDkzMzY0LCJleHAiOjE3Njg0OTM2NjR9.Kve2OHcGWP8uclqKx1xIwkPaiDR1VMq-li3ygxTTL14 - 2026-01-15T16:09:24.512Z
+[21:39:32] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8ef/preview-url - 2026-01-15T16:09:32.615Z
+[21:39:32] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8ef/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZWYiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDkzMzcyLCJleHAiOjE3Njg0OTM2NzJ9.YG3sj44NF3Cm0fupTtW01orDSN1AM3YhI08YYq8Ekvg - 2026-01-15T16:09:32.706Z
+[21:39:39] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f3/preview-url - 2026-01-15T16:09:39.351Z
+[21:39:39] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f3/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjMiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NDkzMzc5LCJleHAiOjE3Njg0OTM2Nzl9.eN_yXH_-pJF_KW5JHZyG1hk8V2RCWRtVqiyUb0gMo34 - 2026-01-15T16:09:39.417Z
+[21:39:43] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f3/preview-url - 2026-01-15T16:09:43.569Z
+[22:07:55] [32minfo[39m: ✅ MongoDB connected successfully
+[22:07:55] [32minfo[39m: Server running on port 5000
+[22:09:18] [32minfo[39m: ✅ MongoDB connected successfully
+[22:09:18] [32minfo[39m: Server running on port 5000
+[22:10:23] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:10:23] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:12:46] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:12:46] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:12:58] [31merror[39m: [Error] OPTIONS /api/vendor/login - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:13:04] [31merror[39m: [Error] OPTIONS /api/vendor/login - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:14:37] [32minfo[39m: ✅ MongoDB connected successfully
+[22:14:37] [32minfo[39m: Server running on port 5000
+[22:14:37] [31merror[39m: [Error] OPTIONS /api/vendor/login - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:14:40] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:14:40] [31merror[39m: [Error] OPTIONS /api/vendor/dashboard - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:15:13] [32minfo[39m: ✅ MongoDB connected successfully
+[22:15:13] [32minfo[39m: Server running on port 5000
+[22:15:13] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:45:13.966Z
+[22:15:14] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:45:14.050Z
+[22:15:17] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-15T16:45:17.263Z
+[22:15:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:45:17.627Z
+[22:15:17] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T16:45:17.718Z
+[22:15:33] [31merror[39m: [Error] GET /public/vendors/qr/323c2c89-6fb7-48b9-9b3c-ba34524fd2e0 - CORS not allowed
+Error: CORS not allowed
+    at origin (file:///C:/Users/Pratik/Projects/sandbox/Backend/src/index.js:57:23)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:342:13)
+    at C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Pratik\Projects\sandbox\Backend\node_modules\router\index.js:186:3)
+[22:19:38] [32minfo[39m: ✅ MongoDB connected successfully
+[22:19:38] [32minfo[39m: Server running on port 5000
+[22:25:20] [32minfo[39m: ✅ MongoDB connected successfully
+[22:25:20] [32minfo[39m: Server running on port 5000
+[22:27:21] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:57:21.434Z
+[22:27:21] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T16:57:21.510Z
+[22:27:34] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T16:57:34.362Z
+[22:41:41] [32minfo[39m: ✅ MongoDB connected successfully
+[22:41:41] [32minfo[39m: Server running on port 5000
+[22:53:47] [32minfo[39m: ✅ MongoDB connected successfully
+[22:53:47] [32minfo[39m: Server running on port 5000
+[22:54:32] [32minfo[39m: ✅ MongoDB connected successfully
+[22:54:32] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[22:54:32] [32minfo[39m: Server running on port 5000
+[22:55:52] [32minfo[39m: ✅ MongoDB connected successfully
+[22:55:52] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[22:55:52] [32minfo[39m: Server running on port 5000
+[22:56:01] [32minfo[39m: ✅ MongoDB connected successfully
+[22:56:01] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[22:56:01] [32minfo[39m: Server running on port 5000
+[23:04:14] [32minfo[39m: ✅ MongoDB connected successfully
+[23:04:14] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:04:14] [32minfo[39m: Server running on port 5000
+[23:06:21] [32minfo[39m: ✅ MongoDB connected successfully
+[23:06:21] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:06:21] [32minfo[39m: Server running on port 5000
+[23:21:05] [32minfo[39m: ✅ MongoDB connected successfully
+[23:21:05] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:21:05] [32minfo[39m: Server running on port 5000
+[23:26:37] [32minfo[39m: ✅ MongoDB connected successfully
+[23:26:37] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:26:37] [32minfo[39m: Server running on port 5000
+[23:26:47] [32minfo[39m: ✅ MongoDB connected successfully
+[23:26:47] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:26:47] [32minfo[39m: Server running on port 5000
+[23:28:56] [32minfo[39m: ✅ MongoDB connected successfully
+[23:28:56] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:28:56] [32minfo[39m: Server running on port 5000
+[23:29:25] [32minfo[39m: ✅ MongoDB connected successfully
+[23:29:25] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:29:25] [32minfo[39m: Server running on port 5000
+[23:33:21] [32minfo[39m: ✅ MongoDB connected successfully
+[23:33:21] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[23:33:21] [32minfo[39m: Server running on port 5000
+[23:33:36] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T18:03:36.079Z
+[23:33:36] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-15T18:03:36.155Z
+[23:33:56] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-15T18:03:56.027Z
+[23:37:42] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T18:07:42.632Z
+[23:37:42] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T18:07:42.777Z
+[23:37:51] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-15T18:07:51.651Z
+[23:37:51] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T18:07:51.934Z
+[23:37:52] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-15T18:07:52.039Z
+[23:37:53] [32minfo[39m: [Request] GET /api/file-access/69691113a06b3c921e0107cc/preview-url - 2026-01-15T18:07:53.563Z
+[23:37:53] [32minfo[39m: [Request] GET /api/file-access/69691113a06b3c921e0107cc/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY5MTExM2EwNmIzYzkyMWUwMTA3Y2MiLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NTAwNDczLCJleHAiOjE3Njg1MDA3NzN9.FKJcG-ZMkQ8ZWnTa73bE9ih3H5ykaVScdfNKu1Wmghw - 2026-01-15T18:07:53.626Z
+[23:38:00] [32minfo[39m: [Request] PATCH /api/vendor/files/69687dbf26cd3c709b7fc8f7/printed - 2026-01-15T18:08:00.661Z
+[23:38:02] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f7/preview-url - 2026-01-15T18:08:02.226Z
+[23:38:02] [32minfo[39m: [Request] GET /api/file-access/69687dbf26cd3c709b7fc8f7/download?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlSWQiOiI2OTY4N2RiZjI2Y2QzYzcwOWI3ZmM4ZjciLCJ2ZW5kb3JJZCI6IjNiZTNmOThmLTYyYjgtNGQzYi05ZGRkLTcyMWY4Mjg5NDZiMyIsInNjb3BlIjoiZmlsZS1wcmV2aWV3IiwiaWF0IjoxNzY4NTAwNDgyLCJleHAiOjE3Njg1MDA3ODJ9.yp-srdiXw7QZcV2frx1LOcHD7WmM9PYto2imiSgge0I - 2026-01-15T18:08:02.310Z

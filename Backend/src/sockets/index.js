@@ -1,5 +1,6 @@
 import { Server } from "socket.io";
 import jwt from "jsonwebtoken";
+import Vendor from "../models/Vendor.js";
 import vendorSocket from "./vendor.socket.js";
 
 let io;
@@ -7,62 +8,105 @@ let io;
 export const initSocket = (httpServer) => {
   io = new Server(httpServer, {
     cors: {
-      origin: "*", // tighten later if needed
+      origin: process.env.FRONTEND_URLS
+        ? process.env.FRONTEND_URLS.split(",")
+        : [],
       methods: ["GET", "POST"],
+      credentials: true,
     },
   });
 
-  // 🔐 JWT authentication during handshake
-  io.use((socket, next) => {
+  /**
+   * 🔐 JWT authentication + vendor enforcement
+   */
+  io.use(async (socket, next) => {
     try {
       const token =
         socket.handshake.auth?.token ||
         socket.handshake.headers?.authorization?.split(" ")[1];
 
       if (!token) {
-        return next(new Error("Authentication token missing"));
+        return next(new Error("UNAUTHORIZED"));
       }
 
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-      if (!decoded?.vendorId) {
-        return next(new Error("Invalid token payload"));
+      // 🔒 Enforce vendor-only sockets
+      if (!decoded?.vendorId || decoded.role !== "vendor") {
+        return next(new Error("UNAUTHORIZED"));
       }
 
-      // ✅ Attach vendorId to socket (single source of truth)
-      socket.vendorId = decoded.vendorId;
+      // 🔍 Verify vendor still active
+      const vendor = await Vendor.findOne({
+        vendorId: decoded.vendorId,
+      }).select("vendorId status");
+
+      if (!vendor || vendor.status !== "active") {
+        return next(new Error("VENDOR_BLOCKED"));
+      }
+
+      // ✅ Single source of truth
+      socket.vendorId = vendor.vendorId;
 
       next();
     } catch (err) {
       console.error("❌ Socket auth failed:", err.message);
-      next(new Error("Unauthorized socket connection"));
+      next(new Error("UNAUTHORIZED"));
     }
   });
 
   io.on("connection", (socket) => {
-    // ✅ Enforce vendor-only room here (global guarantee)
+    // 🔒 Server-controlled room join
     const vendorRoom = `vendor:${socket.vendorId}`;
     socket.join(vendorRoom);
 
     console.log(`🔌 Vendor socket connected → ${vendorRoom}`);
 
-    // Existing vendor socket logic (UNCHANGED)
+    // ✅ Existing vendor logic (UNCHANGED)
     vendorSocket(io, socket);
 
-    // ✅ Graceful disconnect handling
     socket.on("disconnect", (reason) => {
       console.log(
-        `🔌 Vendor socket disconnected → ${socket.vendorId} (${reason})`
+        `❌ Vendor socket disconnected → ${socket.vendorId} (${reason})`
       );
     });
   });
 
-  console.log("🔌 Socket.IO initialized");
+  console.log("🔌 Socket.IO initialized (production-ready)");
 };
 
+/**
+ * Safe IO accessor
+ */
 export const getIO = () => {
   if (!io) {
     throw new Error("Socket.io not initialized");
   }
   return io;
+};
+
+/**
+ * 🚫 Admin utility — force disconnect vendor sockets
+ * (used when vendor is blocked)
+ */
+export const disconnectVendorSockets = (vendorId) => {
+  if (!io) return;
+
+  const room = `vendor:${vendorId}`;
+
+  io.to(room).emit("vendor:blocked", {
+    message: "Your account has been blocked by admin.",
+  });
+
+  const sockets = io.sockets.adapter.rooms.get(room);
+  if (!sockets) return;
+
+  for (const socketId of sockets) {
+    const socket = io.sockets.sockets.get(socketId);
+    if (socket) {
+      socket.disconnect(true);
+    }
+  }
+
+  console.warn(`🚫 All sockets disconnected for vendor:${vendorId}`);
 };

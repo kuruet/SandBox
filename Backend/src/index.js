@@ -21,6 +21,8 @@ import fileRoutes from "./routes/fileRoutes.js";
 import adminModule from "./admin/index.js";
 import fileAccessRoutes from "./routes/fileAccessRoutes.js";
 import publicVendorRoutes from "./routes/publicVendor.routes.js";
+import { startFileCleanupJob } from "./jobs/fileCleanup.job.js";
+import { startExpiredFileCleanupJob } from "./jobs/cleanupExpiredFiles.job.js";
 
 import { requestLogger } from "./middleware/requestLogger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
@@ -35,23 +37,38 @@ app.use(
   express.static(path.join(process.cwd(), "uploads"))
 );
 
+app.use(express.json({ limit: "55mb" }));
+app.use(express.urlencoded({ extended: true, limit: "55mb" }));
+
+
 // CORS
-const allowedOrigins = ["http://localhost:5173"];
+// CORS (production-safe, env-driven)
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
+  .split(",")
+  .map(o => o.trim())
+  .filter(Boolean);
 
 app.use(
   cors({
     origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("CORS not allowed"));
+      // Allow non-browser clients (curl, mobile apps if any)
+      if (!origin) return callback(null, true);
+
+      // Explicit allow-list
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
       }
+
+      // Reject everything else
+      return callback(new Error("CORS not allowed"));
     },
-    credentials: true,
+
+    credentials: false, // JWT via Authorization header only
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 
 // Core middleware
 app.use(express.json());
@@ -79,6 +96,8 @@ app.use("/api/vendor", vendorRoutes);
 app.use("/api/files", fileRoutes);
 
 app.use("/api/file-access", fileAccessRoutes);
+app.use("/public/vendors", publicVendorRoutes);
+
 
 // ✅ ALL ADMIN ROUTES (AUTH + VENDORS)
 app.use("/admin", adminModule);
@@ -89,12 +108,14 @@ app.use(errorHandler);
 // DB
 await connectDB();
 
+startFileCleanupJob();
+startExpiredFileCleanupJob();
+
 // Base route
 app.get("/", (req, res) => {
   res.send("Sandbox Backend is running");
 });
-app.use("/public/vendors", publicVendorRoutes);
-
+ 
 // Server
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);

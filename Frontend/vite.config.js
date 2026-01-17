@@ -7,4 +7,9 @@ export default defineConfig({
   plugins: [react(),
             tailwindcss()
             ],
+              server: {
+    host: "0.0.0.0",   // 🔥 FORCE LAN exposure
+    port: 5173,
+    strictPort: true,
+  },
 })

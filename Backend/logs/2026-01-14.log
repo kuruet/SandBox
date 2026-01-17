@@ -1,0 +1,61 @@
+[22:02:19] [32minfo[39m: ✅ MongoDB connected successfully
+[22:02:19] [32minfo[39m: Server running on port 5000
+[22:04:04] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-14T16:34:04.651Z
+[22:04:04] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:34:04.938Z
+[22:04:05] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:34:05.139Z
+[22:04:42] [32minfo[39m: [Request] POST /api/vendor/login - 2026-01-14T16:34:42.100Z
+[22:04:42] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:34:42.377Z
+[22:04:42] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:34:42.382Z
+[22:05:09] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:35:09.928Z
+[22:05:10] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T16:35:10.138Z
+[22:52:33] [32minfo[39m: ✅ MongoDB connected successfully
+[22:52:33] [32minfo[39m: Server running on port 5000
+[22:52:33] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:22:33.718Z
+[22:52:33] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:22:33.737Z
+[23:00:26] [32minfo[39m: ✅ MongoDB connected successfully
+[23:00:26] [32minfo[39m: Server running on port 5000
+[23:00:33] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:30:33.417Z
+[23:00:33] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:30:33.435Z
+[23:05:49] [32minfo[39m: ✅ MongoDB connected successfully
+[23:05:49] [32minfo[39m: Server running on port 5000
+[23:06:25] [32minfo[39m: ✅ MongoDB connected successfully
+[23:06:25] [32minfo[39m: Server running on port 5000
+[23:08:24] [32minfo[39m: ✅ MongoDB connected successfully
+[23:08:24] [32minfo[39m: Server running on port 5000
+[23:08:24] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:38:24.403Z
+[23:08:24] [32minfo[39m: [Request] GET /api/vendor/dashboard - 2026-01-14T17:38:24.421Z
+[23:11:08] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T17:41:08.457Z
+[23:11:08] [32minfo[39m: [Request] GET /favicon.ico - 2026-01-14T17:41:08.605Z
+[23:19:24] [32minfo[39m: ✅ MongoDB connected successfully
+[23:19:24] [32minfo[39m: Server running on port 5000
+[23:20:37] [32minfo[39m: ✅ MongoDB connected successfully
+[23:20:38] [32minfo[39m: Server running on port 5000
+[23:23:19] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T17:53:19.639Z
+[23:23:51] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T17:53:51.163Z
+[23:27:53] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T17:57:53.839Z
+[23:39:59] [32minfo[39m: ✅ MongoDB connected successfully
+[23:39:59] [32minfo[39m: Server running on port 5000
+[23:40:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:10:06.645Z
+[23:40:06] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:10:06.732Z
+[23:40:14] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:10:14.147Z
+[23:40:22] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:10:22.675Z
+[23:40:22] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:10:22.758Z
+[23:40:29] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:10:29.672Z
+[23:49:49] [32minfo[39m: ✅ MongoDB connected successfully
+[23:49:49] [32minfo[39m: Server running on port 5000
+[23:49:56] [32minfo[39m: ✅ MongoDB connected successfully
+[23:49:56] [32minfo[39m: Server running on port 5000
+[23:50:08] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:20:08.438Z
+[23:50:08] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:20:08.532Z
+[23:50:17] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:20:17.524Z
+[23:57:48] [32minfo[39m: ✅ MongoDB connected successfully
+[23:57:48] [32minfo[39m: Server running on port 5000
+[23:58:11] [32minfo[39m: ✅ MongoDB connected successfully
+[23:58:11] [32minfo[39m: Server running on port 5000
+[23:58:20] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:28:20.039Z
+[23:58:24] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:28:24.999Z
+[23:58:25] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:28:25.078Z
+[23:58:33] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:28:33.018Z
+[23:58:50] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:28:50.633Z
+[23:58:50] [32minfo[39m: [Request] GET /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c - 2026-01-14T18:28:50.705Z
+[23:58:59] [32minfo[39m: [Request] POST /public/vendors/qr/e0d6b1da-7e0d-4920-b65e-c5d5dbd7ab3c/upload - 2026-01-14T18:28:59.633Z

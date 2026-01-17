@@ -4,8 +4,9 @@ let socket;
 
 export const connectSocket = (token) => {
   if (!socket) {
-    socket = io("http://localhost:5000", {
+    socket = io(import.meta.env.VITE_SOCKET_URL, {
       auth: { token },
+      transports: ["websocket"], // important for prod stability
     });
   }
   return socket;

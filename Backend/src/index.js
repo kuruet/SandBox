@@ -110,7 +110,7 @@ app.use(errorHandler);
 
 // DB
 // Server MUST start first
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 const server = http.createServer(app);
 
 initSocket(server);

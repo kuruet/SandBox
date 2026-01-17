@@ -31,6 +31,9 @@ import { initSocket } from "./sockets/index.js";
 // Initialize Express
 const app = express();
 
+app.set('trust proxy', 1);
+
+
 // Static files
 app.use(
   "/uploads",

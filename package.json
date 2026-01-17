@@ -2,6 +2,6 @@
   "name": "sandbox-root",
   "private": true,
   "scripts": {
-    "start": "node Backend/src/index.js"
+    "start": "cd Backend && node src/index.js"
   }
 }

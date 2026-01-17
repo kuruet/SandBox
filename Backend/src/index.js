@@ -78,15 +78,28 @@ app.use(express.json());
 app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },
-
     contentSecurityPolicy: {
       directives: {
         defaultSrc: ["'self'"],
-        frameAncestors: ["'self'", "http://localhost:5173"],
+        // Added your Vercel domain to frameAncestors
+        frameAncestors: [
+          "'self'", 
+          "http://localhost:5173", 
+          "https://the-sand-box.vercel.app"
+        ],
       },
     },
   })
 );
+
+// Add the CORS configuration below the helmet middleware
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://the-sand-box.vercel.app"
+  ],
+  credentials: true
+}));
 
 app.disable("x-powered-by");
 

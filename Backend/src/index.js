@@ -105,12 +105,17 @@ app.use("/public/vendors", publicVendorRoutes);
 // ✅ ALL ADMIN ROUTES (AUTH + VENDORS)
 app.use("/admin", adminModule);
 
+
+ app.get("/", (req, res) => {
+  res.send("Sandbox Backend is running");
+});
+
 // Error handler (last)
 app.use(errorHandler);
 
 // DB
 // Server MUST start first
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 const server = http.createServer(app);
 
 initSocket(server);
@@ -130,7 +135,4 @@ connectDB()
     logger.error("Database connection failed", err);
   });
 
-
- app.get("/", (req, res) => {
-  res.send("Sandbox Backend is running");
-});
+ 

@@ -89,17 +89,14 @@ useEffect(() => {
   const token = localStorage.getItem("vendorToken");
   if (!token || !vendor?.vendorId) return;
 
-  const socket = io("http://localhost:5000", {
+const socket = io(import.meta.env.VITE_BACKEND_URL, {
     auth: {
       token,
     },
     transports: ["websocket"],
   });
 
-  // Join vendor room
-  socket.emit("join", {
-    vendorId: vendor.vendorId,
-  });
+
 
   // 🔔 FILE UPLOADED
   socket.on("file:uploaded", (file) => {

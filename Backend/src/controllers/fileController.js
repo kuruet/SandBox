@@ -91,7 +91,7 @@ export const downloadFile = async (req, res) => {
     );
 
     if (!fs.existsSync(absolutePath)) {
-      return res.status(404).json({ message: "File missing on server" });
+      return res.status(404).json({  message: "This file is no longer available"});
     }
 
     const mimeType =

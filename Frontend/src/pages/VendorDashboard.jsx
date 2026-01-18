@@ -5,7 +5,7 @@ import VendorDashboardSkeleton from "../components/DashboardSkeleton";
 import { getFilePreviewUrl } from "../services/file.service";
 import api from "../api/vendor"; // axios instance
 import { deleteFile, bulkDeleteFiles } from "../api/vendor";
-import { io } from "socket.io-client";
+import { connectSocket, disconnectSocket } from "../utils/socket";
 
 
 
@@ -84,26 +84,16 @@ useEffect(() => {
     prev.filter(id => files.some(file => file.id === id))
   );
 }, [files]);
-
 useEffect(() => {
   const token = localStorage.getItem("vendorToken");
-  if (!token || !vendor?.vendorId) return;
+  if (!token) return;
 
-const socket = io(import.meta.env.VITE_BACKEND_URL, {
-    auth: {
-      token,
-    },
-    transports: ["websocket"],
-  });
+  const socket = connectSocket(token);
 
-
-
-  // 🔔 FILE UPLOADED
   socket.on("file:uploaded", (file) => {
     setFiles((prev) => [file, ...prev]);
   });
 
-  // 🔔 FILE PRINTED
   socket.on("file:printed", ({ fileId }) => {
     setFiles((prev) =>
       prev.map((f) =>
@@ -112,15 +102,15 @@ const socket = io(import.meta.env.VITE_BACKEND_URL, {
     );
   });
 
-  // 🔔 FILE DELETED
   socket.on("file:deleted", ({ fileId }) => {
     setFiles((prev) => prev.filter((f) => f.id !== fileId));
   });
 
   return () => {
-    socket.disconnect();
+    disconnectSocket();
   };
-}, [vendor]);
+}, []);
+
 
 
    

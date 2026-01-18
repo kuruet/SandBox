@@ -32,9 +32,10 @@ export const initSocket = (httpServer) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
       // 🔒 Enforce vendor-only sockets
-      if (!decoded?.vendorId || decoded.role !== "vendor") {
-        return next(new Error("UNAUTHORIZED"));
-      }
+    if (!decoded?.vendorId) {
+  return next(new Error("UNAUTHORIZED"));
+}
+
 
       // 🔍 Verify vendor still active
       const vendor = await Vendor.findOne({

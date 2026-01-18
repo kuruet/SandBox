@@ -193,12 +193,19 @@ setUploadProgress(0);
     setSenderName("");
     setFiles([]);
     alert("Files sent successfully");
-  } catch (err) {
-    console.error("Upload failed:", err);
-    alert("Failed to send files. Please try again.");
-  } finally {
-    setUploading(false);
+
+} catch (err) {
+  console.error("Upload failed:", err);
+
+  if (err.response) {
+    alert(err.response.data?.message || "Upload failed");
+  } else {
+    alert("Upload failed. Please try again.");
   }
+} finally {
+  setUploading(false);
+}
+
 };
 
 

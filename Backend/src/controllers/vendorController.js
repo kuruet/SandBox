@@ -128,7 +128,7 @@ if (!vendor) {
 // ✅ ENSURE QR EXISTS (lazy generation for new vendors)
 // ✅ ENSURE QR EXISTS (lazy generation for new vendors)
 if (!vendor.qrCodeUrl) {
-  const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+  const frontendUrl = process.env.FRONTEND_URL;
 
   if (!frontendUrl) {
     throw new Error("FRONTEND_PUBLIC_URL is not configured");

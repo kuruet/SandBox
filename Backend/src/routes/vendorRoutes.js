@@ -13,6 +13,7 @@ import {
   getVendorDashboard,
   getVendorFiles,
   markFilesAsPrinted,
+  logoutVendor,
   loginVendor,       // <-- import loginVendor
   registerVendor     // optional if you want register API here too
 } from "../controllers/vendorController.js";
@@ -21,7 +22,9 @@ const router = express.Router();
 
 router.post("/login", failedLoginLimiter,  vendorLoginValidator, validateRequest,loginVendor);              // <-- add login route
 router.post("/register",loginLimiter, registerVendor);       // optional
-router.get("/dashboard", verifyToken, getVendorDashboard);
+ router.get("/dashboard", verifyToken, getVendorDashboard);
+ router.post("/logout", verifyToken, logoutVendor);
+
 router.get("/files", verifyToken, getVendorFiles);
 router.patch("/files/:fileId/printed", verifyToken,fileIdParamValidator, validateRequest, markFilesAsPrinted);
 router.get("/:fileId/download",  downloadFile);

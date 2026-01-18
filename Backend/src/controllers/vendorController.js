@@ -435,3 +435,15 @@ export const downloadVendorQR = async (req, res) => {
     return res.status(500).json({ message: "Server error" });
   }
 };
+
+export const logoutVendor = async (req, res) => {
+  const vendor = await Vendor.findOne({ vendorId: req.vendor.vendorId });
+  if (!vendor) return res.status(404).json({ message: "Vendor not found" });
+
+  // 🔴 REQUIRED LINE
+  vendor.tokenInvalidBefore = new Date();
+  await vendor.save();
+
+  res.json({ message: "Logged out from all sessions" });
+};
+

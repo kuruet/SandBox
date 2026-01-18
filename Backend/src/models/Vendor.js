@@ -79,6 +79,12 @@ const vendorSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
+
+  tokenInvalidBefore: {
+  type: Date,
+  default: null,
+},
+
 });
 
 export default mongoose.model("Vendor", vendorSchema);

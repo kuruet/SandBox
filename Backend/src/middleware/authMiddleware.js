@@ -9,7 +9,6 @@ export const verifyToken = async (req, res, next) => {
       return res.status(401).json({ message: "Authorization token missing" });
     }
 
-    // Accept both "Bearer <token>" or just "<token>"
     const token = authHeader.startsWith("Bearer ")
       ? authHeader.split(" ")[1]
       : authHeader;
@@ -18,29 +17,43 @@ export const verifyToken = async (req, res, next) => {
       return res.status(401).json({ message: "Authorization token missing" });
     }
 
+    // 1️⃣ Verify JWT
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     if (!decoded?.vendorId) {
       return res.status(401).json({ message: "Invalid token payload" });
     }
 
+    // 2️⃣ Fetch vendor (INCLUDE tokenInvalidBefore)
     const vendor = await Vendor.findOne({
       vendorId: decoded.vendorId,
-    }).select("-passwordHash");
+    }).select("-passwordHash tokenInvalidBefore status vendorId");
 
     if (!vendor) {
       return res.status(401).json({ message: "Vendor not found" });
     }
 
-    // ✅ Preserve existing behavior
-    req.vendor = vendor;
+    if (vendor.status !== "active") {
+      return res.status(403).json({ message: "Vendor blocked" });
+    }
 
-    // ✅ Normalize critical fields for consistency
+    // 3️⃣ 🔥 Cross-device logout enforcement
+    if (
+      vendor.tokenInvalidBefore &&
+      decoded.iat * 1000 < vendor.tokenInvalidBefore.getTime()
+    ) {
+      return res.status(401).json({
+        message: "Session expired",
+      });
+    }
+
+    // 4️⃣ Attach vendor to request
+    req.vendor = vendor;
     req.vendor.vendorId = vendor.vendorId;
 
-    next(); // pass control to next middleware/route
+    next();
   } catch (error) {
-    console.error("JWT Middleware Error:", error);
+    console.error("JWT Middleware Error:", error.message);
     return res.status(401).json({ message: "Invalid token" });
   }
 };

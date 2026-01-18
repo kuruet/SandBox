@@ -19,42 +19,46 @@ export const initSocket = (httpServer) => {
   /**
    * 🔐 JWT authentication + vendor enforcement
    */
-  io.use(async (socket, next) => {
-    try {
-      const token =
-        socket.handshake.auth?.token ||
-        socket.handshake.headers?.authorization?.split(" ")[1];
+io.use(async (socket, next) => {
+  try {
+    const token =
+      socket.handshake.auth?.token ||
+      socket.handshake.headers?.authorization?.split(" ")[1];
 
-      if (!token) {
-        return next(new Error("UNAUTHORIZED"));
-      }
-
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
-
-      // 🔒 Enforce vendor-only sockets
-    if (!decoded?.vendorId) {
-  return next(new Error("UNAUTHORIZED"));
-}
-
-
-      // 🔍 Verify vendor still active
-      const vendor = await Vendor.findOne({
-        vendorId: decoded.vendorId,
-      }).select("vendorId status");
-
-      if (!vendor || vendor.status !== "active") {
-        return next(new Error("VENDOR_BLOCKED"));
-      }
-
-      // ✅ Single source of truth
-      socket.vendorId = vendor.vendorId;
-
-      next();
-    } catch (err) {
-      console.error("❌ Socket auth failed:", err.message);
-      next(new Error("UNAUTHORIZED"));
+    if (!token) {
+      return next(new Error("UNAUTHORIZED"));
     }
-  });
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    if (!decoded?.vendorId) {
+      return next(new Error("UNAUTHORIZED"));
+    }
+
+    const vendor = await Vendor.findOne({
+      vendorId: decoded.vendorId,
+    }).select("vendorId status tokenInvalidBefore");
+
+    if (!vendor || vendor.status !== "active") {
+      return next(new Error("VENDOR_BLOCKED"));
+    }
+
+    // 🔥 Cross-device logout enforcement
+    if (
+      vendor.tokenInvalidBefore &&
+      decoded.iat * 1000 < vendor.tokenInvalidBefore.getTime()
+    ) {
+      return next(new Error("SESSION_EXPIRED"));
+    }
+
+    socket.vendorId = vendor.vendorId;
+    next();
+  } catch (err) {
+    console.error("❌ Socket auth failed:", err.message);
+    next(new Error("UNAUTHORIZED"));
+  }
+});
+
 
   io.on("connection", (socket) => {
     // 🔒 Server-controlled room join

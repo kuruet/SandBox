@@ -57,7 +57,9 @@ export const handlePublicUpload = async ({
   }
 
   // 🔔 Realtime notify vendor ONLY for successful files
-  if (results.success.length > 0) {
+// 🔔 Realtime notify vendor (NON-BLOCKING)
+if (results.success.length > 0) {
+  try {
     const io = getIO();
 
     for (const file of results.success) {
@@ -69,7 +71,15 @@ export const handlePublicUpload = async ({
         createdAt: file.createdAt,
       });
     }
+  } catch (err) {
+    console.warn(
+      "⚠️ Socket emit failed (ignored):",
+      err.message
+    );
+    // IMPORTANT: do NOT throw
   }
+}
 
-  return results;
+
+return results.success;
 };

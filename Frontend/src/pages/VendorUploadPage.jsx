@@ -164,7 +164,7 @@ const handleSubmit = async (e) => {
 
     // ❌ DO NOT set Content-Type manually
 await axios.post(
-  `${API_BASE}/public/vendors/qr/${qrId}/upload`,
+ `${import.meta.env.VITE_BACKEND_URL}/public/vendors/qr/${qrId}/upload`,
   formData,
   {
     onUploadProgress: (event) => {

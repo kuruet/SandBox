@@ -8,6 +8,8 @@ const ALLOWED_MIME_TYPES = [
   "image/jpeg",
   "image/jpg",
   "image/png",
+    "application/msword", // .doc
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 ];
 
 export const validatePublicUpload = (req, res, next) => {
@@ -40,7 +42,8 @@ export const validatePublicUpload = (req, res, next) => {
       }
     }
 
-    next();
+return next();
+
   } catch (error) {
     console.error("Public upload validation failed:", error);
     return res.status(500).json({

@@ -15,3 +15,11 @@
 [12:07:41] [32minfo[39m: ✅ MongoDB connected successfully
 [12:07:41] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
 [12:07:41] [32minfo[39m: Database connected
+[12:40:22] [32minfo[39m: Server running on port 3000
+[12:40:24] [32minfo[39m: ✅ MongoDB connected successfully
+[12:40:24] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[12:40:24] [32minfo[39m: Database connected
+[12:49:24] [32minfo[39m: Server running on port 3000
+[12:49:25] [32minfo[39m: ✅ MongoDB connected successfully
+[12:49:25] [32minfo[39m: 🧹 File cleanup job started (every 6 hours)
+[12:49:25] [32minfo[39m: Database connected

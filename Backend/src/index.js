@@ -93,13 +93,7 @@ app.use(
 );
 
 // Add the CORS configuration below the helmet middleware
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://the-sand-box.vercel.app"
-  ],
-  credentials: true
-}));
+
 
 app.disable("x-powered-by");
 

@@ -17,17 +17,17 @@ export const verifyToken = async (req, res, next) => {
       return res.status(401).json({ message: "Authorization token missing" });
     }
 
-    // 1️⃣ Verify JWT
+    // 1️⃣ Verify JWT (iat is automatically included by jwt.sign)
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     if (!decoded?.vendorId) {
       return res.status(401).json({ message: "Invalid token payload" });
     }
 
-    // 2️⃣ Fetch vendor (INCLUDE tokenInvalidBefore)
+    // 2️⃣ Fetch vendor FIRST (required for invalidation check)
     const vendor = await Vendor.findOne({
       vendorId: decoded.vendorId,
-    }).select("-passwordHash tokenInvalidBefore status vendorId");
+    }).select("vendorId status tokenInvalidBefore");
 
     if (!vendor) {
       return res.status(401).json({ message: "Vendor not found" });
@@ -37,19 +37,17 @@ export const verifyToken = async (req, res, next) => {
       return res.status(403).json({ message: "Vendor blocked" });
     }
 
-    // 3️⃣ 🔥 Cross-device logout enforcement
+    // 3️⃣ 🔒 Cross-device logout enforcement (SAFE)
     if (
       vendor.tokenInvalidBefore &&
+      decoded.iat &&
       decoded.iat * 1000 < vendor.tokenInvalidBefore.getTime()
     ) {
-      return res.status(401).json({
-        message: "Session expired",
-      });
+      return res.status(401).json({ message: "Session expired" });
     }
 
     // 4️⃣ Attach vendor to request
     req.vendor = vendor;
-    req.vendor.vendorId = vendor.vendorId;
 
     next();
   } catch (error) {

@@ -9,10 +9,18 @@ const api = axios.create({
 api.interceptors.response.use(
   (res) => res,
   (err) => {
-    if (err.response?.status === 401) {
-      logoutVendor();
-      window.location.href = "/login";
-    }
+   if (err.response?.status === 401) {
+  // ⚠️ Ignore socket / transient auth failures
+  const url = err.config?.url || "";
+
+  if (!url.includes("/vendordashboard")) {
+    return Promise.reject(err);
+  }
+
+  logoutVendor();
+  window.location.href = "/login";
+}
+
     return Promise.reject(err);
   }
 );

@@ -328,13 +328,24 @@ const handleDownloadFile = async (file) => {
 };
 
 
-  const handleLogout = () => {
-   // 1️⃣ Clear auth token
-  localStorage.removeItem("vendorToken");
+const handleLogout = async () => {
+  try {
+    const token = localStorage.getItem("vendorToken");
+    if (token) {
+      await api.post("/vendor/logout", {}, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+    }
+  } catch (e) {
+    // ignore
+  } finally {
+    localStorage.removeItem("vendorToken");
+    window.location.href = "/login";
+  }
+};
 
-  // 2️⃣ Redirect to landing / login page
-  window.location.href = "/";
-  };
 
  if (loading) {
   return <VendorDashboardSkeleton />;

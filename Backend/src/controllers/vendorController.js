@@ -95,11 +95,19 @@ vendor.tokenInvalidBefore = null;
 await vendor.save();
 
 
-    const token = jwt.sign(
-      { vendorId: vendor.vendorId, email: vendor.email },
-      process.env.JWT_SECRET,
-      { expiresIn: "7d" }
-    );
+   const token = jwt.sign(
+  {
+    vendorId: vendor.vendorId,
+    email: vendor.email,
+    role: "vendor",           // REQUIRED for socket auth
+  },
+  process.env.JWT_SECRET,
+  {
+    expiresIn: "7d",
+    issuer: "sandbox",        // optional but good
+  }
+);
+
 
     res.status(200).json({
       message: "Login successful",
@@ -449,8 +457,8 @@ export const logoutVendor = async (req, res) => {
   if (!vendor) return res.status(404).json({ message: "Vendor not found" });
 
   // 🔴 REQUIRED LINE
-  vendor.tokenInvalidBefore = new Date();
-  await vendor.save();
+    req.vendor.tokenInvalidBefore = new Date();
+  await req.vendor.save();
 
   res.json({ message: "Logged out from all sessions" });
 };

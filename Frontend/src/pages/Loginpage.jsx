@@ -88,7 +88,7 @@ useEffect(() => {
   const token = localStorage.getItem("vendorToken");
   if (!token || !vendor?.vendorId) return;
 
-  const socket = io("http://localhost:5000", {
+const socket = io(import.meta.env.VITE_BACKEND_URL, {
     auth: {
       token,
     },

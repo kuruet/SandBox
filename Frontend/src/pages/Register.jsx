@@ -59,7 +59,9 @@ if (validationError) {
     try {
       setLoading(true);
 
-      const res = await fetch("http://localhost:5000/api/vendor/register", {
+const res = await fetch(
+  `${import.meta.env.VITE_API_BASE_URL}/vendor/register`,
+  {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

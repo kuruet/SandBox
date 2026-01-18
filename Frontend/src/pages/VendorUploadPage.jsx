@@ -164,9 +164,12 @@ const handleSubmit = async (e) => {
 
     // ❌ DO NOT set Content-Type manually
 await axios.post(
- `${import.meta.env.VITE_BACKEND_URL}/public/vendors/qr/${qrId}/upload`,
+  `${import.meta.env.VITE_BACKEND_URL}/public/vendors/qr/${qrId}/upload`,
   formData,
   {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
     onUploadProgress: (event) => {
       if (!event.total) return;
       const percent = Math.round(
@@ -176,6 +179,7 @@ await axios.post(
     },
   }
 );
+
 setUploadProgress(0);
 
 

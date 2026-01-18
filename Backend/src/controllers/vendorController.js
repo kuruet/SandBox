@@ -34,6 +34,8 @@ export const registerVendor = async (req, res) => {
       return res.status(400).json({ message: "Vendor already exists" });
     }
 
+    
+
     // Hash password
     const hashedPassword = await bcrypt.hash(password, 10);
 
@@ -51,6 +53,7 @@ export const registerVendor = async (req, res) => {
     shopName,
     vendorId,
     qrId,
+    tokenInvalidBefore: null,
   });
 
     await vendor.save();
@@ -86,6 +89,11 @@ if (!isMatch) {
   req.failedLogin = true;
   return res.status(400).json({ message: "Invalid credentials" });
 }
+
+// ✅ Reset global logout lock on successful login
+vendor.tokenInvalidBefore = null;
+await vendor.save();
+
 
     const token = jwt.sign(
       { vendorId: vendor.vendorId, email: vendor.email },

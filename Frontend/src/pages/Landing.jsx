@@ -555,10 +555,10 @@ const LandingPage = () => {
             style={{ borderColor: 'rgba(37, 99, 235, 0.2)' }}
           >
             <p className="text-sm" style={{ color: '#6B7280' }}>
-              © 2025 SandBox. All rights reserved.
+              © 2026 SandBox. All rights reserved.
             </p>
              <p className="text-sm" style={{ color: '#6B7280' }}>
-              Designed and Developed by <span style={{ color: '#7C3AED'}} > <a href="https://github.com/kuruet"> Kuruet </a>  </span>  
+              Designed and Developed by <span style={{ color: '#7C3AED'}} > <a href="https://kuruet.github.io/Pratik./"> Kuruet </a>  </span>  
             </p>
           </div>
         </div>
